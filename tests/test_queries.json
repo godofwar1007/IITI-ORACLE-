@@ -1,0 +1,62 @@
+[
+  {
+    "query": "cs 204 midsem syllabus",
+    "expected_course": ["CS204"],
+    "expected_jargon": ["MSE"],
+    "intent": "exam_info"
+  },
+  {
+    "query": "where is lhc in campus",
+    "expected_course": [],
+    "expected_jargon": ["LHC"],
+    "intent": "location"
+  },
+  {
+    "query": "ee 460 / ee 660 notes pdf",
+    "expected_course": ["EE460", "EE660"],
+    "expected_jargon": [],
+    "intent": "study_material"
+  },
+  {
+    "query": "quiz kab hai for ma103",
+    "expected_course": ["MA103"],
+    "expected_jargon": ["MSE"],
+    "intent": "schedule"
+  },
+  {
+    "query": "erp login not working what to do",
+    "expected_course": [],
+    "expected_jargon": ["ERP"],
+    "intent": "system_issue"
+  },
+  {
+    "query": "best place to study in iiti late night",
+    "expected_course": [],
+    "expected_jargon": [],
+    "intent": "campus_life"
+  },
+  {
+    "query": "cs204d midsem seating in lhc",
+    "expected_course": ["CS204"],
+    "expected_jargon": ["MSE", "LHC"],
+    "intent": "exam_logistics"
+  },
+  {
+    "query": "how is mess food in iiti",
+    "expected_course": [],
+    "expected_jargon": ["MESS"],
+    "intent": "campus_life"
+  },
+  {
+    "query": "last fee payment date of spring 2026 semester iiti",
+    "expected_course": [],
+    "expected_jargon": ["COURSE_ADJUSTMENT"],
+    "intent": "academic_process"
+  },
+  {
+    "query": "who teaches cs204 and where are classes held",
+    "expected_course": ["CS204"],
+    "expected_jargon": [],
+    "intent": "course_info"
+  }
+]
