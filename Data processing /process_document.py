@@ -22,6 +22,11 @@ client = pymongo.MongoClient(MONGO_URI)
 db = client["IITI_BOT"]
 pages_collection = db["scraped_pages"]
 
+model_name = "BAAI/bge-m3"
+model = SentenceTransformer(model_name)
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 def get_document_by_url(url : str) -> dict:
 
     doc = pages_collection.find_one({"url": url})
@@ -54,34 +59,57 @@ def clean_text(text: str) -> str:
     
     return text
 
+
+# here we make a file named chunks.json1 just to write and debug the whole thing cz we havent setup the vector db yet once it is set then we will insert the chunks dynamically directly into the vector db     
+with open("chunks.jsonl", "w", encoding="utf-8") as f:
     
-for doc in pages_collection.find({}):
+   #for doc in pages_collection.find({}).limit(10):  -> used this line to test and make a chunks.json
+    for doc in pages_collection.find({}):
+        
+        try:
+            
+            doc_id = str(doc["_id"])
+            url = doc.get("url", "")
+            title = doc.get("title", "")
+            content = doc.get("content", "")
+            last_crawled = doc.get("last_crawled")
 
-    doc_id = str(doc["_id"])
-    url = doc.get("url", "")
-    title = doc.get("title", "")
-    content = doc.get("content", "")
-    last_crawled = doc.get("last_crawled")    
+            cleaned_text = clean_text(content)
+            if not cleaned_text:
+                continue
 
-    cleaned_text = clean_text(content)
-    if not cleaned_text:
-        continue         # step to skip empty documents . dunno if it helps yet 
+            metadata = {
+                "document_id": doc_id,
+                "url": url,
+                "title": title,
+                "last_crawled": str(last_crawled) if last_crawled else None,
+            }
+           
+            extra = doc.get("metadata", {})
+            for k, v in extra.items():
+                if k not in metadata:
+                    metadata[k] = v
 
-    # the metadata
+            langchain_doc = Document(page_content=cleaned_text, metadata=metadata)
+            chunks = splitter.split_documents([langchain_doc])
 
-    metadata = {
-        "document_id" : doc_id,
-        "url" : url,
-        "title" : title,
-        "last_crawled" : str(last_crawled) if last_crawled else None,
-    } 
+            for idx, chunk in enumerate(chunks):
 
-    # merging any metadata from the metadata field of the doc 
-    extra = doc.get("metadata",{})
-    for k,v in extra.items():
-        if k not in metadata:
-            metadata[k] = v
+                embedding = model.encode(chunk.page_content, normalize_embeddings=True).tolist()
+                
+                chunk_dict = {
+                    **chunk.metadata,
+                    "chunk_index": idx,
+                    "chunk_text": chunk.page_content,
+                    "embedding": embedding
+                }
+                
+                f.write(json.dumps(chunk_dict) + "\n")
 
-    langchain_doc = Document(page_content=cleaned_text, metadata=metadata)
+            logging.info(f"Processed {doc_id} -> {len(chunks)} chunks")
 
-    chunks = splitter.split_documents([langchain_doc])        
+        except Exception as e:
+            logging.error(f"Error with document {doc_id}: {e}")
+            continue
+
+client.close()        
