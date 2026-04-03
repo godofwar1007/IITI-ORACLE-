@@ -1,5 +1,5 @@
 import json
-from retrieval_system.preprocessing.pipeline import QueryPipeline
+from query_processing.preprocessing.pipeline import QueryPipeline
 
 pipeline = QueryPipeline("data/jargon_iiti.json")
 

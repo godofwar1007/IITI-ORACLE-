@@ -1,8 +1,8 @@
-from retrieval_system.preprocessing.clean import clean_text
-from retrieval_system.preprocessing.parser import parse_course_input
-from retrieval_system.preprocessing.jargon_map import JargonMapper
-from retrieval_system.preprocessing.query_expansion import QueryExpander
-from retrieval_system.preprocessing.multi_query import GroqMultiQueryGenerator
+from preprocessing.clean import clean_text
+from preprocessing.parser import parse_course_input
+from preprocessing.jargon_map import JargonMapper
+from preprocessing.query_expansion import QueryExpander
+from preprocessing.multi_query import GroqMultiQueryGenerator
 
 
 class QueryPipeline:
