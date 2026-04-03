@@ -1,0 +1,2215 @@
+{
+  "aa_101": {
+    "canonical": "AA 101",
+    "expansion": "introduction to space engineering",
+    "tokens": ["aa101", "intro to space engineering"],
+    "category": "course"
+  },
+  "aa_204": {
+    "canonical": "AA 204",
+    "expansion": "introduction to space exploration",
+    "tokens": ["aa204", "intro to space exploration"],
+    "category": "course"
+  },
+  "aa_206_ph_206": {
+    "canonical": "AA 206/PH 206",
+    "expansion": "electronics devices and circuits - ii",
+    "tokens": ["aa206", "ph206", "edc 2"],
+    "category": "course"
+  },
+  "aa_208_ph_208": {
+    "canonical": "AA 208/PH 208",
+    "expansion": "electrodynamics",
+    "tokens": ["aa208", "ph208", "electrodynamics"],
+    "category": "course"
+  },
+  "aa_214": {
+    "canonical": "AA 214",
+    "expansion": "stellar and planetary science",
+    "tokens": ["aa214", "stellar and planetary science"],
+    "category": "course"
+  },
+  "aa_216": {
+    "canonical": "AA 216",
+    "expansion": "flight mechanics and classical control",
+    "tokens": ["aa216", "flight mechanics"],
+    "category": "course"
+  },
+  "aa_252_ph_252": {
+    "canonical": "AA 252/PH 252",
+    "expansion": "scientific computing lab",
+    "tokens": ["aa252", "ph252", "scientific computing lab"],
+    "category": "course"
+  },
+  "aa_256_ph_256": {
+    "canonical": "AA 256/PH 256",
+    "expansion": "electronics devices and circuits lab - ii",
+    "tokens": ["aa256", "ph256", "edc lab 2"],
+    "category": "course"
+  },
+  "aa_301n": {
+    "canonical": "AA 301N",
+    "expansion": "high energy astrophysics and transient sky",
+    "tokens": ["aa301n", "high energy astrophysics"],
+    "category": "course"
+  },
+  "aa_304": {
+    "canonical": "AA 304",
+    "expansion": "radioware propagation & antenna application",
+    "tokens": ["aa304", "radio wave propagation", "antenna applications"],
+    "category": "course"
+  },
+  "aa_306": {
+    "canonical": "AA 306",
+    "expansion": "signals & communication in space",
+    "tokens": ["aa306", "signals and communication in space"],
+    "category": "course"
+  },
+  "aa_308": {
+    "canonical": "AA 308",
+    "expansion": "guidance navigation and control",
+    "tokens": ["aa308", "gnc", "guidance navigation control"],
+    "category": "course"
+  },
+  "aa_310": {
+    "canonical": "AA 310",
+    "expansion": "satellite imaging",
+    "tokens": ["aa310", "satellite imaging"],
+    "category": "course"
+  },
+  "aa_312": {
+    "canonical": "AA 312",
+    "expansion": "stmospheric physics and remote sensing",
+    "tokens": ["aa312", "atmospheric physics", "remote sensing"],
+    "category": "course"
+  },
+  "aa_320": {
+    "canonical": "AA 320",
+    "expansion": "detectors for space - ii",
+    "tokens": ["aa320", "detectors for space 2"],
+    "category": "course"
+  },
+  "aa_324": {
+    "canonical": "AA 324",
+    "expansion": "space informatics",
+    "tokens": ["aa324", "space informatics"],
+    "category": "course"
+  },
+  "aa_374": {
+    "canonical": "AA 374",
+    "expansion": "computational fluids and structures",
+    "tokens": ["aa374", "computational fluids", "computational structures"],
+    "category": "course"
+  },
+  "aa_404_604": {
+    "canonical": "AA 404/604",
+    "expansion": "spacecraft and payload attitude dynamics control and pointing",
+    "tokens": ["aa404", "aa604", "spacecraft attitude dynamics"],
+    "category": "course"
+  },
+  "aa_408n_608n": {
+    "canonical": "AA 408N/608N",
+    "expansion": "astrostatistics / astronomical data analysis",
+    "tokens": ["aa408n", "aa608n", "astrostatistics", "astronomical data analysis"],
+    "category": "course"
+  },
+  "aa_410_610": {
+    "canonical": "AA 410/610",
+    "expansion": "spatial informatics",
+    "tokens": ["aa410", "aa610", "spatial informatics"],
+    "category": "course"
+  },
+  "aa_412_612": {
+    "canonical": "AA 412/612",
+    "expansion": "microwave remote sensing",
+    "tokens": ["aa412", "aa612", "microwave remote sensing"],
+    "category": "course"
+  },
+  "aa_414_614": {
+    "canonical": "AA 414/614",
+    "expansion": "cosmology",
+    "tokens": ["aa414", "aa614", "cosmology"],
+    "category": "course"
+  },
+  "aa_416_616": {
+    "canonical": "AA 416/616",
+    "expansion": "stellar evolution and planets",
+    "tokens": ["aa416", "aa616", "stellar evolution", "planets"],
+    "category": "course"
+  },
+  "aa_472n_672n": {
+    "canonical": "AA 472N/672N",
+    "expansion": "galactic and extragalactic astronomy",
+    "tokens": ["aa472n", "aa672n", "galactic astronomy"],
+    "category": "course"
+  },
+  "aa_474n_674n": {
+    "canonical": "AA 474N/674N",
+    "expansion": "radio astronomy",
+    "tokens": ["aa474n", "aa674n", "radio astronomy"],
+    "category": "course"
+  },
+  "aa_476_676": {
+    "canonical": "AA 476/676",
+    "expansion": "satellite based navigation systems",
+    "tokens": ["aa476", "aa676", "satellite navigation"],
+    "category": "course"
+  },
+  "aa_620": {
+    "canonical": "AA 620",
+    "expansion": "astroparticle physics",
+    "tokens": ["aa620", "astroparticle physics"],
+    "category": "course"
+  },
+  "aa_622": {
+    "canonical": "AA 622",
+    "expansion": "time series analysis for astronomy",
+    "tokens": ["aa622", "time series astronomy"],
+    "category": "course"
+  },
+  "aa_624": {
+    "canonical": "AA 624",
+    "expansion": "transient phenomena in astrophysics",
+    "tokens": ["aa624", "transient astrophysics"],
+    "category": "course"
+  },
+  "aa_652n": {
+    "canonical": "AA 652N",
+    "expansion": "flexi core laboratory: observational astronomy laboratory",
+    "tokens": ["aa652n", "observational astronomy lab"],
+    "category": "course"
+  },
+
+  "bse_102": {
+    "canonical": "BSE 102",
+    "expansion": "biosciences",
+    "tokens": ["bse102", "biosciences"],
+    "category": "course"
+  },
+  "bse_102a": {
+    "canonical": "BSE 102(A)",
+    "expansion": "biosciences",
+    "tokens": ["bse102a", "biosciences"],
+    "category": "course"
+  },
+  "bse_102b": {
+    "canonical": "BSE 102(B)",
+    "expansion": "biosciences",
+    "tokens": ["bse102b", "biosciences"],
+    "category": "course"
+  },
+  "bse_432_632": {
+    "canonical": "BSE 432/632",
+    "expansion": "measurement and testing of medical devices",
+    "tokens": ["bse432", "bse632", "medical devices testing"],
+    "category": "course"
+  },
+  "bse_443_643": {
+    "canonical": "BSE 443/643",
+    "expansion": "applied biomechanics",
+    "tokens": ["bse443", "bse643", "applied biomechanics"],
+    "category": "course"
+  },
+  "bse_618n": {
+    "canonical": "BSE 618N",
+    "expansion": "bioinformatics",
+    "tokens": ["bse618n", "bioinformatics"],
+    "category": "course"
+  },
+  "bse_624n": {
+    "canonical": "BSE 624N",
+    "expansion": "bioprocess engineering and technology",
+    "tokens": ["bse624n", "bioprocess engineering"],
+    "category": "course"
+  },
+  "bse_628": {
+    "canonical": "BSE 628",
+    "expansion": "genomics and proteomics",
+    "tokens": ["bse628", "genomics", "proteomics"],
+    "category": "course"
+  },
+  "bse_630": {
+    "canonical": "BSE 630",
+    "expansion": "biophotonics and optical imaging techniques",
+    "tokens": ["bse630", "biophotonics", "optical imaging"],
+    "category": "course"
+  },
+  "bse_634": {
+    "canonical": "BSE 634",
+    "expansion": "design of implantable and surgical devices",
+    "tokens": ["bse634", "implantable devices design"],
+    "category": "course"
+  },
+  "bse_636": {
+    "canonical": "BSE 636",
+    "expansion": "biomedical instrumentation",
+    "tokens": ["bse636", "biomedical instrumentation"],
+    "category": "course"
+  },
+  "bse_638": {
+    "canonical": "BSE 638",
+    "expansion": "mechanobiology and electrophysiology",
+    "tokens": ["bse638", "mechanobiology", "electrophysiology"],
+    "category": "course"
+  },
+  "bse_648": {
+    "canonical": "BSE 648",
+    "expansion": "regulatory framework and quality compliance",
+    "tokens": ["bse648", "regulatory framework", "quality compliance"],
+    "category": "course"
+  },
+  "bse_650": {
+    "canonical": "BSE 650",
+    "expansion": "medical device laboratory",
+    "tokens": ["bse650", "medical device lab"],
+    "category": "course"
+  },
+  "bse_654n": {
+    "canonical": "BSE 654N",
+    "expansion": "genetic engineering laboratory",
+    "tokens": ["bse654n", "genetic engineering lab"],
+    "category": "course"
+  },
+  "bse_656": {
+    "canonical": "BSE 656",
+    "expansion": "advance clinical immersion training",
+    "tokens": ["bse656", "clinical immersion training"],
+    "category": "course"
+  },
+  "bse_658": {
+    "canonical": "BSE 658",
+    "expansion": "bioprocess engineering and technology laboratory",
+    "tokens": ["bse658", "bioprocess lab"],
+    "category": "course"
+  },
+  "bse_662": {
+    "canonical": "BSE 662",
+    "expansion": "plant and animal biotechnology",
+    "tokens": ["bse662", "plant and animal biotechnology"],
+    "category": "course"
+  },
+  "bse_666": {
+    "canonical": "BSE 666",
+    "expansion": "plant and animal biotechnology laboratory",
+    "tokens": ["bse666", "plant and animal biotech lab"],
+    "category": "course"
+  },
+  "bse_670": {
+    "canonical": "BSE 670",
+    "expansion": "scientific communication skills",
+    "tokens": ["bse670", "scientific communication"],
+    "category": "course"
+  },
+  "bse_672": {
+    "canonical": "BSE 672",
+    "expansion": "research ethics and research methodology",
+    "tokens": ["bse672", "research ethics", "research methodology"],
+    "category": "course"
+  },
+  "bse_702": {
+    "canonical": "BSE 702",
+    "expansion": "applied genetic engineering",
+    "tokens": ["bse702", "applied genetic engineering"],
+    "category": "course"
+  },
+
+  "ce_102": {
+    "canonical": "CE 102",
+    "expansion": "computations in civil engineering",
+    "tokens": ["ce102", "civil computations"],
+    "category": "course"
+  },
+  "ce_210": {
+    "canonical": "CE 210",
+    "expansion": "structural analysis-i",
+    "tokens": ["ce210", "structural analysis 1"],
+    "category": "course"
+  },
+  "ce_212": {
+    "canonical": "CE 212",
+    "expansion": "soil mechanics-i",
+    "tokens": ["ce212", "soil mechanics 1"],
+    "category": "course"
+  },
+  "ce_214": {
+    "canonical": "CE 214",
+    "expansion": "engineering geology",
+    "tokens": ["ce214", "engineering geology"],
+    "category": "course"
+  },
+  "ce_218": {
+    "canonical": "CE 218",
+    "expansion": "environmental engineering",
+    "tokens": ["ce218", "environmental engineering"],
+    "category": "course"
+  },
+  "ce_220": {
+    "canonical": "CE 220",
+    "expansion": "water resources planning and management",
+    "tokens": ["ce220", "water resources planning"],
+    "category": "course"
+  },
+  "ce_222": {
+    "canonical": "CE 222",
+    "expansion": "estimation and costing",
+    "tokens": ["ce222", "estimation and costing"],
+    "category": "course"
+  },
+  "ce_252": {
+    "canonical": "CE 252",
+    "expansion": "soil mechanics lab-i",
+    "tokens": ["ce252", "soil mechanics lab 1"],
+    "category": "course"
+  },
+  "ce_258": {
+    "canonical": "CE 258",
+    "expansion": "environmental engineering lab",
+    "tokens": ["ce258", "environmental engineering lab"],
+    "category": "course"
+  },
+  "ce_301": {
+    "canonical": "CE 301",
+    "expansion": "hydrology",
+    "tokens": ["ce301", "hydrology"],
+    "category": "course"
+  },
+  "ce_303": {
+    "canonical": "CE 303",
+    "expansion": "soil mechanics-i",
+    "tokens": ["ce303", "soil mechanics 1"],
+    "category": "course"
+  },
+  "ce_309": {
+    "canonical": "CE 309",
+    "expansion": "engineering geology",
+    "tokens": ["ce309", "engineering geology"],
+    "category": "course"
+  },
+  "ce_312": {
+    "canonical": "CE 312",
+    "expansion": "design of steel structures",
+    "tokens": ["ce312", "steel structures design"],
+    "category": "course"
+  },
+  "ce_314": {
+    "canonical": "CE 314",
+    "expansion": "introduction to finite element methods",
+    "tokens": ["ce314", "finite element methods"],
+    "category": "course"
+  },
+  "ce_316": {
+    "canonical": "CE 316",
+    "expansion": "statistical hydroclimatology",
+    "tokens": ["ce316", "hydroclimatology"],
+    "category": "course"
+  },
+  "ce_320": {
+    "canonical": "CE 320",
+    "expansion": "engineering hydrology",
+    "tokens": ["ce320", "engineering hydrology"],
+    "category": "course"
+  },
+  "ce_322": {
+    "canonical": "CE 322",
+    "expansion": "railway engineering",
+    "tokens": ["ce322", "railway engineering"],
+    "category": "course"
+  },
+  "ce_324": {
+    "canonical": "CE 324",
+    "expansion": "sustainable geotechnics",
+    "tokens": ["ce324", "sustainable geotechnics"],
+    "category": "course"
+  },
+  "ce_353": {
+    "canonical": "CE 353",
+    "expansion": "soil mechanics laboratory-i",
+    "tokens": ["ce353", "soil mechanics lab 1"],
+    "category": "course"
+  },
+  "ce_356": {
+    "canonical": "CE 356",
+    "expansion": "computer aided design and drawing lab",
+    "tokens": ["ce356", "cad drawing lab"],
+    "category": "course"
+  },
+  "ce_357": {
+    "canonical": "CE 357",
+    "expansion": "design laboratory-i",
+    "tokens": ["ce357", "design lab 1"],
+    "category": "course"
+  },
+  "ce_359": {
+    "canonical": "CE 359",
+    "expansion": "engineering geology laboratory",
+    "tokens": ["ce359", "engineering geology lab"],
+    "category": "course"
+  },
+  "ce_402_602": {
+    "canonical": "CE 402/602",
+    "expansion": "water resources engineering",
+    "tokens": ["ce402", "ce602", "water resources engineering"],
+    "category": "course"
+  },
+  "ce_404": {
+    "canonical": "CE 404",
+    "expansion": "design of structures-iii",
+    "tokens": ["ce404", "design of structures 3"],
+    "category": "course"
+  },
+  "ce_406": {
+    "canonical": "CE 406",
+    "expansion": "transportation engineering-ii",
+    "tokens": ["ce406", "transportation engineering 2"],
+    "category": "course"
+  },
+  "ce_408": {
+    "canonical": "CE 408",
+    "expansion": "foundation engineering",
+    "tokens": ["ce408", "foundation engineering"],
+    "category": "course"
+  },
+  "ce_414_614": {
+    "canonical": "CE 414/614",
+    "expansion": "design of short and medium span bridges",
+    "tokens": ["ce414", "ce614", "bridge design"],
+    "category": "course"
+  },
+  "ce_428_628": {
+    "canonical": "CE 428/628",
+    "expansion": "theory of plates and shells",
+    "tokens": ["ce428", "ce628", "plates and shells"],
+    "category": "course"
+  },
+  "ce_444_644": {
+    "canonical": "CE 444/644",
+    "expansion": "solid waste engineering and management",
+    "tokens": ["ce444", "ce644", "solid waste management"],
+    "category": "course"
+  },
+  "ce_448_648": {
+    "canonical": "CE 448/648",
+    "expansion": "prestressed concrete design",
+    "tokens": ["ce448", "ce648", "prestressed concrete"],
+    "category": "course"
+  },
+  "ce_462_662": {
+    "canonical": "CE 462/662",
+    "expansion": "structural dynamics",
+    "tokens": ["ce462", "ce662", "structural dynamics"],
+    "category": "course"
+  },
+  "ce_484_684": {
+    "canonical": "CE 484/684",
+    "expansion": "advanced concrete technology",
+    "tokens": ["ce484", "ce684", "advanced concrete technology"],
+    "category": "course"
+  },
+  "ce_616": {
+    "canonical": "CE 616",
+    "expansion": "finite element applications in structural engineering",
+    "tokens": ["ce616", "fea structural engineering"],
+    "category": "course"
+  },
+  "ce_620": {
+    "canonical": "CE 620",
+    "expansion": "climate applications and practices",
+    "tokens": ["ce620", "climate applications"],
+    "category": "course"
+  },
+  "ce_646": {
+    "canonical": "CE 646",
+    "expansion": "climate hazards and disaster mitigation",
+    "tokens": ["ce646", "climate hazards"],
+    "category": "course"
+  },
+  "ce_654": {
+    "canonical": "CE 654",
+    "expansion": "technical field visit-design thinking",
+    "tokens": ["ce654", "field visit", "design thinking"],
+    "category": "course"
+  },
+
+  "ch_105": {
+    "canonical": "CH 105",
+    "expansion": "chemistry",
+    "tokens": ["ch105", "chemistry"],
+    "category": "course"
+  },
+  "ch_155": {
+    "canonical": "CH 155",
+    "expansion": "chemistry lab",
+    "tokens": ["ch155", "chemistry lab"],
+    "category": "course"
+  },
+  "ch_606": {
+    "canonical": "CH 606",
+    "expansion": "chemical and statistical thermodynamics",
+    "tokens": ["ch606", "thermodynamics"],
+    "category": "course"
+  },
+  "ch_607": {
+    "canonical": "CH 607",
+    "expansion": "solid state chemistry",
+    "tokens": ["ch607", "solid state chemistry"],
+    "category": "course"
+  },
+  "ch_608": {
+    "canonical": "CH 608",
+    "expansion": "molecular spectroscopy",
+    "tokens": ["ch608", "molecular spectroscopy"],
+    "category": "course"
+  },
+  "ch_612": {
+    "canonical": "CH 612",
+    "expansion": "main group chemistry",
+    "tokens": ["ch612", "main group chemistry"],
+    "category": "course"
+  },
+  "ch_615": {
+    "canonical": "CH 615",
+    "expansion": "strategies for organic synthesis",
+    "tokens": ["ch615", "organic synthesis"],
+    "category": "course"
+  },
+  "ch_617": {
+    "canonical": "CH 617",
+    "expansion": "chemistry and applications of f-block elements",
+    "tokens": ["ch617", "f block chemistry"],
+    "category": "course"
+  },
+  "ch_625": {
+    "canonical": "CH 625",
+    "expansion": "stereochemistry pericyclic and photochemistry",
+    "tokens": ["ch625", "stereochemistry", "pericyclic reactions"],
+    "category": "course"
+  },
+  "ch_706": {
+    "canonical": "CH 706",
+    "expansion": "photochemistry",
+    "tokens": ["ch706", "photochemistry"],
+    "category": "course"
+  },
+  "ch_708": {
+    "canonical": "CH 708",
+    "expansion": "catalysis approaches and applications",
+    "tokens": ["ch708", "catalysis"],
+    "category": "course"
+  },
+  "ch_711": {
+    "canonical": "CH 711",
+    "expansion": "bio-organic and medicinal chemistry",
+    "tokens": ["ch711", "medicinal chemistry"],
+    "category": "course"
+  },
+  "ch_752": {
+    "canonical": "CH 752",
+    "expansion": "chemistry lab-ii",
+    "tokens": ["ch752", "chem lab 2"],
+    "category": "course"
+  },
+  "ch_754": {
+    "canonical": "CH 754",
+    "expansion": "chemistry lab-iii: numerical and computational methods",
+    "tokens": ["ch754", "chem computational lab"],
+    "category": "course"
+  },
+
+  "che_202": {
+    "canonical": "ChE 202",
+    "expansion": "fluid mechanics",
+    "tokens": ["che202", "fluid mechanics"],
+    "category": "course"
+  },
+  "che_204": {
+    "canonical": "ChE 204",
+    "expansion": "chemical reaction engineering",
+    "tokens": ["che204", "reaction engineering"],
+    "category": "course"
+  },
+  "che_206": {
+    "canonical": "ChE 206",
+    "expansion": "separation processes",
+    "tokens": ["che206", "separation processes"],
+    "category": "course"
+  },
+  "che_208": {
+    "canonical": "ChE 208",
+    "expansion": "process data analytics & monitoring",
+    "tokens": ["che208", "process data analytics"],
+    "category": "course"
+  },
+  "che_210": {
+    "canonical": "ChE 210",
+    "expansion": "introduction of metabolic engineering",
+    "tokens": ["che210", "metabolic engineering"],
+    "category": "course"
+  },
+  "che_252": {
+    "canonical": "ChE 252",
+    "expansion": "fluid mechanics lab",
+    "tokens": ["che252", "fluid mechanics lab"],
+    "category": "course"
+  },
+  "che_254": {
+    "canonical": "ChE 254",
+    "expansion": "reaction engineering lab",
+    "tokens": ["che254", "reaction engineering lab"],
+    "category": "course"
+  },
+  "che_258": {
+    "canonical": "ChE 258",
+    "expansion": "computational chemical engineering lab -1",
+    "tokens": ["che258", "computational chem eng lab"],
+    "category": "course"
+  },
+  "che_302": {
+    "canonical": "ChE 302",
+    "expansion": "computer-aided process equipment design",
+    "tokens": ["che302", "process equipment design"],
+    "category": "course"
+  },
+  "che_304": {
+    "canonical": "ChE 304",
+    "expansion": "chemical process synthesis and simulation",
+    "tokens": ["che304", "process synthesis"],
+    "category": "course"
+  },
+  "che_306": {
+    "canonical": "ChE 306",
+    "expansion": "chemical process technology and intensification",
+    "tokens": ["che306", "process intensification"],
+    "category": "course"
+  },
+  "che_308": {
+    "canonical": "ChE 308",
+    "expansion": "plant design and economics",
+    "tokens": ["che308", "plant design"],
+    "category": "course"
+  },
+  "che_310": {
+    "canonical": "ChE 310",
+    "expansion": "petroleum refining",
+    "tokens": ["che310", "petroleum refining"],
+    "category": "course"
+  },
+  "che_312": {
+    "canonical": "ChE 312",
+    "expansion": "microhydrodynamics",
+    "tokens": ["che312", "microhydrodynamics"],
+    "category": "course"
+  },
+  "che_314": {
+    "canonical": "ChE 314",
+    "expansion": "colloids and interfaces",
+    "tokens": ["che314", "colloids and interfaces"],
+    "category": "course"
+  },
+  "che_316": {
+    "canonical": "ChE 316",
+    "expansion": "industrial catalyst design and development",
+    "tokens": ["che316", "catalyst design"],
+    "category": "course"
+  },
+  "che_354": {
+    "canonical": "ChE 354",
+    "expansion": "process control lab",
+    "tokens": ["che354", "process control lab"],
+    "category": "course"
+  },
+  "che_356": {
+    "canonical": "ChE 356",
+    "expansion": "computer-aided chemical engineering lab-2",
+    "tokens": ["che356", "chemical eng lab 2"],
+    "category": "course"
+  },
+
+  "cis_602": {
+    "canonical": "CIS 602",
+    "expansion": "military data networks: management",
+    "tokens": ["cis602", "military data networks"],
+    "category": "course"
+  },
+  "cp_202_302_402": {
+    "canonical": "CP 202/302/402",
+    "expansion": "understanding harmony",
+    "tokens": ["cp202", "cp302", "cp402", "understanding harmony"],
+    "category": "course"
+  },
+
+  "cs_202": {
+    "canonical": "CS 202",
+    "expansion": "automata theory and logic",
+    "tokens": ["cs202", "automata theory"],
+    "category": "course"
+  },
+  "cs_202d": {
+    "canonical": "CS 202D",
+    "expansion": "automata theory and logic",
+    "tokens": ["cs202d", "automata theory"],
+    "category": "course"
+  },
+  "cs_204d": {
+    "canonical": "CS 204D",
+    "expansion": "design and analysis of algorithms",
+    "tokens": ["cs204d", "daa"],
+    "category": "course"
+  },
+  "cs_204_ma_208": {
+    "canonical": "CS 204 / MA 208",
+    "expansion": "design and analysis of algorithms",
+    "tokens": ["cs204", "ma208", "daa"],
+    "category": "course"
+  },
+  "cs_208": {
+    "canonical": "CS 208",
+    "expansion": "software engineering",
+    "tokens": ["cs208", "software engineering"],
+    "category": "course"
+  },
+  "cs_210": {
+    "canonical": "CS 210",
+    "expansion": "computer architecture",
+    "tokens": ["cs210", "computer architecture"],
+    "category": "course"
+  },
+  "cs_212": {
+    "canonical": "CS 212",
+    "expansion": "foundation of algebraic graph theory",
+    "tokens": ["cs212", "algebraic graph theory"],
+    "category": "course"
+  },
+  "cs_214": {
+    "canonical": "CS 214",
+    "expansion": "foundations of hardware security",
+    "tokens": ["cs214", "hardware security"],
+    "category": "course"
+  },
+  "cs_216": {
+    "canonical": "CS 216",
+    "expansion": "introduction to blockchain",
+    "tokens": ["cs216", "blockchain intro"],
+    "category": "course"
+  },
+  "cs_218": {
+    "canonical": "CS 218",
+    "expansion": "programmable and interoperable blockchains",
+    "tokens": ["cs218", "blockchains"],
+    "category": "course"
+  },
+  "cs_254": {
+    "canonical": "CS 254",
+    "expansion": "design and analysis of algorithms lab",
+    "tokens": ["cs254", "daa lab"],
+    "category": "course"
+  },
+  "cs_254_ma_254": {
+    "canonical": "CS 254 / MA 254",
+    "expansion": "design and analysis of algorithms lab",
+    "tokens": ["cs254", "ma254", "daa lab"],
+    "category": "course"
+  },
+  "cs_258": {
+    "canonical": "CS 258",
+    "expansion": "software engineering lab",
+    "tokens": ["cs258", "software eng lab"],
+    "category": "course"
+  },
+  "cs_264": {
+    "canonical": "CS 264",
+    "expansion": "computer architecture lab",
+    "tokens": ["cs264", "computer architecture lab"],
+    "category": "course"
+  },
+  "cs_302": {
+    "canonical": "CS 302",
+    "expansion": "computer graphics and visualization",
+    "tokens": ["cs302", "computer graphics"],
+    "category": "course"
+  },
+  "cs_302n": {
+    "canonical": "CS 302N",
+    "expansion": "computer graphics and visualization",
+    "tokens": ["cs302n", "computer graphics"],
+    "category": "course"
+  },
+  "cs_304n": {
+    "canonical": "CS 304N",
+    "expansion": "computational intelligence",
+    "tokens": ["cs304n", "computational intelligence"],
+    "category": "course"
+  },
+  "cs_306": {
+    "canonical": "CS 306",
+    "expansion": "computer networks",
+    "tokens": ["cs306", "computer networks"],
+    "category": "course"
+  },
+  "cs_308n": {
+    "canonical": "CS 308N",
+    "expansion": "compiler techniques",
+    "tokens": ["cs308n", "compiler techniques"],
+    "category": "course"
+  },
+  "cs_310": {
+    "canonical": "CS 310",
+    "expansion": "software engineering",
+    "tokens": ["cs310", "software engineering"],
+    "category": "course"
+  },
+  "cs_312": {
+    "canonical": "CS 312",
+    "expansion": "foundations of secure computation",
+    "tokens": ["cs312", "secure computation"],
+    "category": "course"
+  },
+  "cs_314": {
+    "canonical": "CS 314",
+    "expansion": "computer and network security",
+    "tokens": ["cs314", "network security"],
+    "category": "course"
+  },
+  "cs_334_434_634": {
+    "canonical": "CS 334/434/634",
+    "expansion": "wireless networks and applications",
+    "tokens": ["cs334", "cs434", "cs634", "wireless networks"],
+    "category": "course"
+  },
+  "cs_352": {
+    "canonical": "CS 352",
+    "expansion": "computer graphics and visualization lab",
+    "tokens": ["cs352", "graphics lab"],
+    "category": "course"
+  },
+  "cs_354n": {
+    "canonical": "CS 354N",
+    "expansion": "computational intelligence lab",
+    "tokens": ["cs354n", "computational intelligence lab"],
+    "category": "course"
+  },
+  "cs_355": {
+    "canonical": "CS 355",
+    "expansion": "computer architecture lab",
+    "tokens": ["cs355", "architecture lab"],
+    "category": "course"
+  },
+  "cs_356": {
+    "canonical": "CS 356",
+    "expansion": "computer networks lab",
+    "tokens": ["cs356", "networks lab"],
+    "category": "course"
+  },
+  "cs_403_603": {
+    "canonical": "CS 403/603",
+    "expansion": "machine learning",
+    "tokens": ["cs403", "cs603", "machine learning"],
+    "category": "course"
+  },
+  "cs_417_617": {
+    "canonical": "CS 417/617",
+    "expansion": "cryptography and network security",
+    "tokens": ["cs417", "cs617", "cryptography"],
+    "category": "course"
+  },
+  "cs_419_619": {
+    "canonical": "CS 419/619",
+    "expansion": "computer vision",
+    "tokens": ["cs419", "cs619", "computer vision"],
+    "category": "course"
+  },
+  "cs_426_626": {
+    "canonical": "CS 426/626",
+    "expansion": "foundations of cyber-physical systems",
+    "tokens": ["cs426", "cs626", "cyber physical systems"],
+    "category": "course"
+  },
+  "cs_435_635": {
+    "canonical": "CS 435/635",
+    "expansion": "deep learning",
+    "tokens": ["cs435", "cs635", "deep learning"],
+    "category": "course"
+  },
+  "cs_448_648": {
+    "canonical": "CS 448/648",
+    "expansion": "software verification and certification",
+    "tokens": ["cs448", "cs648", "software verification"],
+    "category": "course"
+  },
+  "cs_450_650": {
+    "canonical": "CS 450/650",
+    "expansion": "generative ai",
+    "tokens": ["cs450", "cs650", "generative ai"],
+    "category": "course"
+  },
+  "cs_637": {
+    "canonical": "CS 637",
+    "expansion": "mathematics-ii: theory of computation and graph theory",
+    "tokens": ["cs637", "theory of computation", "graph theory"],
+    "category": "course"
+  },
+
+  "ee_106": {
+    "canonical": "EE 106",
+    "expansion": "basic electronics engineering",
+    "tokens": ["ee106", "basic electronics"],
+    "category": "course"
+  },
+  "ee_202n": {
+    "canonical": "EE 202N",
+    "expansion": "signals and systems",
+    "tokens": ["ee202n", "signals and systems"],
+    "category": "course"
+  },
+  "ee_204": {
+    "canonical": "EE 204",
+    "expansion": "analog circuits",
+    "tokens": ["ee204", "analog circuits"],
+    "category": "course"
+  },
+  "ee_212": {
+    "canonical": "EE 212",
+    "expansion": "basic power electronics",
+    "tokens": ["ee212", "power electronics basics"],
+    "category": "course"
+  },
+  "ee_216": {
+    "canonical": "EE 216",
+    "expansion": "machine learning for signal processing",
+    "tokens": ["ee216", "ml for signal processing"],
+    "category": "course"
+  },
+  "ee_218": {
+    "canonical": "EE 218",
+    "expansion": "synchronous and special electrical machines",
+    "tokens": ["ee218", "electrical machines"],
+    "category": "course"
+  },
+  "ee_252": {
+    "canonical": "EE 252",
+    "expansion": "electric machines and power electronics lab",
+    "tokens": ["ee252", "machines lab"],
+    "category": "course"
+  },
+  "ee_254": {
+    "canonical": "EE 254",
+    "expansion": "analog circuits lab",
+    "tokens": ["ee254", "analog circuits lab"],
+    "category": "course"
+  },
+  "ee_302": {
+    "canonical": "EE 302",
+    "expansion": "control systems",
+    "tokens": ["ee302", "control systems"],
+    "category": "course"
+  },
+  "ee_306": {
+    "canonical": "EE 306",
+    "expansion": "digital communications",
+    "tokens": ["ee306", "digital comm"],
+    "category": "course"
+  },
+  "ee_310": {
+    "canonical": "EE 310",
+    "expansion": "vlsi systems and technology",
+    "tokens": ["ee310", "vlsi"],
+    "category": "course"
+  },
+  "ee_311": {
+    "canonical": "EE 311",
+    "expansion": "vlsi systems and technology",
+    "tokens": ["ee311", "vlsi"],
+    "category": "course"
+  },
+  "ee_312": {
+    "canonical": "EE 312",
+    "expansion": "microwave and satellite communication",
+    "tokens": ["ee312", "microwave communication"],
+    "category": "course"
+  },
+  "ee_314": {
+    "canonical": "EE 314",
+    "expansion": "restructured power systems",
+    "tokens": ["ee314", "restructured power systems"],
+    "category": "course"
+  },
+  "ee_316": {
+    "canonical": "EE 316",
+    "expansion": "rf devices for guided and wireless transmission",
+    "tokens": ["ee316", "rf devices"],
+    "category": "course"
+  },
+  "ee_318": {
+    "canonical": "EE 318",
+    "expansion": "statistical and experimental design methods for signal processing",
+    "tokens": ["ee318", "statistical design"],
+    "category": "course"
+  },
+  "ee_352": {
+    "canonical": "EE 352",
+    "expansion": "control systems lab",
+    "tokens": ["ee352", "control systems lab"],
+    "category": "course"
+  },
+  "ee_352n": {
+    "canonical": "EE 352N",
+    "expansion": "control systems lab",
+    "tokens": ["ee352n", "control systems lab"],
+    "category": "course"
+  },
+  "ee_356n": {
+    "canonical": "EE 356N",
+    "expansion": "communications lab",
+    "tokens": ["ee356n", "communications lab"],
+    "category": "course"
+  },
+  "ee_401c_601": {
+    "canonical": "EE 401C/601",
+    "expansion": "power electronics",
+    "tokens": ["ee401c", "ee601", "power electronics"],
+    "category": "course"
+  },
+  "ee_410_610": {
+    "canonical": "EE 410/610",
+    "expansion": "power electronics applications to power transmission",
+    "tokens": ["ee410", "ee610", "power electronics applications"],
+    "category": "course"
+  },
+  "ee_429_629": {
+    "canonical": "EE 429/629",
+    "expansion": "nanotechnology and nanoelectronics",
+    "tokens": ["ee429", "ee629", "nanoelectronics"],
+    "category": "course"
+  },
+  "ee_438_638": {
+    "canonical": "EE 438/638",
+    "expansion": "system on programmable chip design",
+    "tokens": ["ee438", "ee638", "soc design"],
+    "category": "course"
+  },
+  "ee_440_640": {
+    "canonical": "EE 440/640",
+    "expansion": "analog and mixed signal ic design",
+    "tokens": ["ee440", "ee640", "analog mixed signal ic"],
+    "category": "course"
+  },
+  "ee_446_646": {
+    "canonical": "EE 446/646",
+    "expansion": "information and coding theory",
+    "tokens": ["ee446", "ee646", "coding theory"],
+    "category": "course"
+  },
+  "ee_447_647": {
+    "canonical": "EE 447/647",
+    "expansion": "advanced photonics",
+    "tokens": ["ee447", "ee647", "photonics"],
+    "category": "course"
+  },
+  "ee_456_656": {
+    "canonical": "EE 456/EE 656",
+    "expansion": "deregulated power systems",
+    "tokens": ["ee456", "ee656", "deregulated power systems"],
+    "category": "course"
+  },
+  "ee_460_660": {
+    "canonical": "EE 460/ EE 660",
+    "expansion": "microgrids and distributed generation",
+    "tokens": ["ee460", "ee660", "microgrids"],
+    "category": "course"
+  },
+  "ee_467_667": {
+    "canonical": "EE 467/667",
+    "expansion": "cyber resiliency in smart grid",
+    "tokens": ["ee467", "ee667", "smart grid cyber resiliency"],
+    "category": "course"
+  },
+  "ee_468_668": {
+    "canonical": "EE 468/668",
+    "expansion": "game theory and mechanism design",
+    "tokens": ["ee468", "ee668", "game theory"],
+    "category": "course"
+  },
+  "ee_484_684": {
+    "canonical": "EE 484/684",
+    "expansion": "power system protection",
+    "tokens": ["ee484", "ee684", "power system protection"],
+    "category": "course"
+  },
+  "ee_642": {
+    "canonical": "EE 642",
+    "expansion": "wireless communication",
+    "tokens": ["ee642", "wireless communication"],
+    "category": "course"
+  },
+  "ee_644": {
+    "canonical": "EE 644",
+    "expansion": "image processing",
+    "tokens": ["ee644", "image processing"],
+    "category": "course"
+  },
+  "ee_652": {
+    "canonical": "EE 652",
+    "expansion": "system on programmable chip design lab",
+    "tokens": ["ee652", "soc design lab"],
+    "category": "course"
+  },
+  "ee_654": {
+    "canonical": "EE 654",
+    "expansion": "analog and mixed signal ic design lab",
+    "tokens": ["ee654", "analog mixed signal lab"],
+    "category": "course"
+  },
+  "ee_658": {
+    "canonical": "EE 658",
+    "expansion": "power electronics lab",
+    "tokens": ["ee658", "power electronics lab"],
+    "category": "course"
+  },
+  "ee_686": {
+    "canonical": "EE 686",
+    "expansion": "applied optimization for advanced wireless communication systems",
+    "tokens": ["ee686", "optimization wireless communication"],
+    "category": "course"
+  },
+  "ee_740": {
+    "canonical": "EE 740",
+    "expansion": "speech signal processing",
+    "tokens": ["ee740", "speech signal processing"],
+    "category": "course"
+  },
+
+  "es_102a": {
+    "canonical": "ES 102(A)",
+    "expansion": "environmental studies: scientific and engineering aspects",
+    "tokens": ["es102a", "evs scientific aspects"],
+    "category": "course"
+  },
+  "es_102b": {
+    "canonical": "ES 102(B)",
+    "expansion": "environmental studies: scientific and engineering aspects",
+    "tokens": ["es102b", "evs scientific aspects"],
+    "category": "course"
+  },
+
+  "ev_402_602": {
+    "canonical": "EV 402/602",
+    "expansion": "vehicular communication systems",
+    "tokens": ["ev402", "ev602", "vehicular communication"],
+    "category": "course"
+  },
+  "ev_412_612": {
+    "canonical": "EV 412/612",
+    "expansion": "advanced driver-assistance systems and autonomous vehicles",
+    "tokens": ["ev412", "ev612", "adas", "autonomous vehicles"],
+    "category": "course"
+  },
+
+  "hs_102a": {
+    "canonical": "HS 102(A)",
+    "expansion": "environmental studies: social aspects",
+    "tokens": ["hs102a", "evs social aspects"],
+    "category": "course"
+  },
+  "hs_102b": {
+    "canonical": "HS 102(B)",
+    "expansion": "environmental studies: social aspects",
+    "tokens": ["hs102b", "evs social aspects"],
+    "category": "course"
+  },
+  "hs_104a": {
+    "canonical": "HS 104(A)",
+    "expansion": "fundamentals of economics",
+    "tokens": ["hs104a", "economics fundamentals"],
+    "category": "course"
+  },
+  "hs_104b": {
+    "canonical": "HS 104(B)",
+    "expansion": "fundamentals of economics",
+    "tokens": ["hs104b", "economics fundamentals"],
+    "category": "course"
+  },
+  "hs_110": {
+    "canonical": "HS 110",
+    "expansion": "thinking tools and thought experiments",
+    "tokens": ["hs110", "thinking tools"],
+    "category": "course"
+  },
+  "hs_117": {
+    "canonical": "HS 117",
+    "expansion": "stress and mental health",
+    "tokens": ["hs117", "stress and mental health"],
+    "category": "course"
+  },
+  "hs_206": {
+    "canonical": "HS 206",
+    "expansion": "paradigms and turning points",
+    "tokens": ["hs206", "paradigms and turning points"],
+    "category": "course"
+  },
+  "hs_210": {
+    "canonical": "HS 210",
+    "expansion": "indian economy",
+    "tokens": ["hs210", "indian economy"],
+    "category": "course"
+  },
+  "hs_213": {
+    "canonical": "HS 213",
+    "expansion": "cognitive psychology",
+    "tokens": ["hs213", "cognitive psychology"],
+    "category": "course"
+  },
+  "hs_214": {
+    "canonical": "HS 214",
+    "expansion": "history of indian culture and civilization",
+    "tokens": ["hs214", "indian culture history"],
+    "category": "course"
+  },
+  "hs_220_320_420": {
+    "canonical": "HS 220/320/420",
+    "expansion": "the digital economy",
+    "tokens": ["hs220", "hs320", "hs420", "digital economy"],
+    "category": "course"
+  },
+  "hs_315": {
+    "canonical": "HS 315",
+    "expansion": "sociology of science and technology",
+    "tokens": ["hs315", "sociology of science"],
+    "category": "course"
+  },
+  "hs_334": {
+    "canonical": "HS 334",
+    "expansion": "agricultural economics",
+    "tokens": ["hs334", "agricultural economics"],
+    "category": "course"
+  },
+  "hs_421_621": {
+    "canonical": "HS 421/621",
+    "expansion": "historiography and historical methods",
+    "tokens": ["hs421", "hs621", "historiography"],
+    "category": "course"
+  },
+  "hs_426_626": {
+    "canonical": "HS 426/626",
+    "expansion": "economics of innovation",
+    "tokens": ["hs426", "hs626", "economics of innovation"],
+    "category": "course"
+  },
+  "hs_446": {
+    "canonical": "HS 446",
+    "expansion": "music and literary modernism",
+    "tokens": ["hs446", "literary modernism"],
+    "category": "course"
+  },
+  "hs_481_681": {
+    "canonical": "HS 481/681",
+    "expansion": "language mind and society",
+    "tokens": ["hs481", "hs681", "language mind society"],
+    "category": "course"
+  },
+  "hs_601": {
+    "canonical": "HS 601",
+    "expansion": "research methods in social sciences",
+    "tokens": ["hs601", "research methods social sciences"],
+    "category": "course"
+  },
+  "hs_606": {
+    "canonical": "HS 606",
+    "expansion": "moral philosophy",
+    "tokens": ["hs606", "moral philosophy"],
+    "category": "course"
+  },
+  "hs_614": {
+    "canonical": "HS 614",
+    "expansion": "language and culture",
+    "tokens": ["hs614", "language and culture"],
+    "category": "course"
+  },
+  "hs_617": {
+    "canonical": "HS 617",
+    "expansion": "essential of human memory",
+    "tokens": ["hs617", "human memory"],
+    "category": "course"
+  },
+  "hs_620": {
+    "canonical": "HS 620",
+    "expansion": "syntax semantics and pragmatics",
+    "tokens": ["hs620", "syntax semantics pragmatics"],
+    "category": "course"
+  },
+  "hs_632": {
+    "canonical": "HS 632",
+    "expansion": "research methodology: theory and praxis",
+    "tokens": ["hs632", "research methodology"],
+    "category": "course"
+  },
+  "hs_634": {
+    "canonical": "HS 634",
+    "expansion": "foundations of literary theory",
+    "tokens": ["hs634", "literary theory"],
+    "category": "course"
+  },
+  "hs_641": {
+    "canonical": "HS 641",
+    "expansion": "english communication skills",
+    "tokens": ["hs641", "english communication"],
+    "category": "course"
+  },
+  "hs_656": {
+    "canonical": "HS 656",
+    "expansion": "applied linguistics",
+    "tokens": ["hs656", "applied linguistics"],
+    "category": "course"
+  },
+  "hs_743": {
+    "canonical": "HS 743",
+    "expansion": "indian english fiction",
+    "tokens": ["hs743", "indian english fiction"],
+    "category": "course"
+  },
+
+  "ic_152": {
+    "canonical": "IC 152",
+    "expansion": "makerspace",
+    "tokens": ["ic152", "makerspace"],
+    "category": "course"
+  },
+  "ihs_402": {
+    "canonical": "IHS 402",
+    "expansion": "twentieth century world history: critical perspectives",
+    "tokens": ["ihs402", "20th century world history"],
+    "category": "course"
+  },
+  "ihs_422_622": {
+    "canonical": "IHS 422/622",
+    "expansion": "development economics",
+    "tokens": ["ihs422", "ihs622", "development economics"],
+    "category": "course"
+  },
+
+  "ma_102na": {
+    "canonical": "MA 102N(A)",
+    "expansion": "linear algebra",
+    "tokens": ["ma102na", "linear algebra"],
+    "category": "course"
+  },
+  "ma_102nb": {
+    "canonical": "MA 102N(B)",
+    "expansion": "linear algebra",
+    "tokens": ["ma102nb", "linear algebra"],
+    "category": "course"
+  },
+  "ma_104na": {
+    "canonical": "MA 104N(A)",
+    "expansion": "differential equations-i",
+    "tokens": ["ma104na", "differential equations 1"],
+    "category": "course"
+  },
+  "ma_104nb": {
+    "canonical": "MA 104N(B)",
+    "expansion": "differential equations-i",
+    "tokens": ["ma104nb", "differential equations 1"],
+    "category": "course"
+  },
+  "ma_106": {
+    "canonical": "MA 106",
+    "expansion": "linear algebra and ordinary differential equation-i",
+    "tokens": ["ma106", "la and ode 1"],
+    "category": "course"
+  },
+  "ma_202": {
+    "canonical": "MA 202",
+    "expansion": "multivariate calculus and measure theory",
+    "tokens": ["ma202", "multivariate calculus"],
+    "category": "course"
+  },
+  "ma_204": {
+    "canonical": "MA 204",
+    "expansion": "numerical methods",
+    "tokens": ["ma204", "numerical methods"],
+    "category": "course"
+  },
+  "ma_204n": {
+    "canonical": "MA 204N",
+    "expansion": "numerical methods",
+    "tokens": ["ma204n", "numerical methods"],
+    "category": "course"
+  },
+  "ma_206": {
+    "canonical": "MA 206",
+    "expansion": "mathematical logic and theory of computation",
+    "tokens": ["ma206", "theory of computation"],
+    "category": "course"
+  },
+  "ma_223": {
+    "canonical": "MA 223",
+    "expansion": "database management system",
+    "tokens": ["ma223", "dbms"],
+    "category": "course"
+  },
+  "ma_302": {
+    "canonical": "MA 302",
+    "expansion": "statistical inference",
+    "tokens": ["ma302", "statistical inference"],
+    "category": "course"
+  },
+  "ma_306": {
+    "canonical": "MA 306",
+    "expansion": "monte-carlo simulation",
+    "tokens": ["ma306", "monte carlo"],
+    "category": "course"
+  },
+  "ma_308": {
+    "canonical": "MA 308",
+    "expansion": "techniques in parallel computing",
+    "tokens": ["ma308", "parallel computing"],
+    "category": "course"
+  },
+  "ma_310": {
+    "canonical": "MA 310",
+    "expansion": "algorithmic techniques and applications of data science",
+    "tokens": ["ma310", "data science algorithms"],
+    "category": "course"
+  },
+  "ma_317": {
+    "canonical": "MA 317",
+    "expansion": "stochastic calculus for finance",
+    "tokens": ["ma317", "stochastic calculus finance"],
+    "category": "course"
+  },
+  "ma_407_607": {
+    "canonical": "MA 407/607",
+    "expansion": "nonlinear dynamics and computations",
+    "tokens": ["ma407", "ma607", "nonlinear dynamics"],
+    "category": "course"
+  },
+  "ma_424_624": {
+    "canonical": "MA 424/624",
+    "expansion": "algebraic number theory",
+    "tokens": ["ma424", "ma624", "algebraic number theory"],
+    "category": "course"
+  },
+  "ma_452_652": {
+    "canonical": "MA 452/652",
+    "expansion": "theory of transforms",
+    "tokens": ["ma452", "ma652", "integral transforms"],
+    "category": "course"
+  },
+  "ma_610n": {
+    "canonical": "MA 610N",
+    "expansion": "complex analysis",
+    "tokens": ["ma610n", "complex analysis"],
+    "category": "course"
+  },
+  "ma_618": {
+    "canonical": "MA 618",
+    "expansion": "point set topology",
+    "tokens": ["ma618", "topology"],
+    "category": "course"
+  },
+  "ma_621": {
+    "canonical": "MA 621",
+    "expansion": "ordinary differential equations",
+    "tokens": ["ma621", "ode"],
+    "category": "course"
+  },
+  "ma_628": {
+    "canonical": "MA 628",
+    "expansion": "basic of data structures and algorithms",
+    "tokens": ["ma628", "dsa basics"],
+    "category": "course"
+  },
+  "ma_643": {
+    "canonical": "MA 643",
+    "expansion": "algebra ii",
+    "tokens": ["ma643", "algebra 2"],
+    "category": "course"
+  },
+  "ma_651n": {
+    "canonical": "MA 651N",
+    "expansion": "numerical analysis",
+    "tokens": ["ma651n", "numerical analysis"],
+    "category": "course"
+  },
+  "ma_704": {
+    "canonical": "MA 704",
+    "expansion": "probability theory",
+    "tokens": ["ma704", "probability theory"],
+    "category": "course"
+  },
+  "ma_706": {
+    "canonical": "MA 706",
+    "expansion": "numerical linear algebra",
+    "tokens": ["ma706", "numerical linear algebra"],
+    "category": "course"
+  },
+
+  "me_108": {
+    "canonical": "ME 108",
+    "expansion": "basic manufacturing processes",
+    "tokens": ["me108", "manufacturing basics"],
+    "category": "course"
+  },
+  "me_110": {
+    "canonical": "ME 110",
+    "expansion": "basic thermal engineering",
+    "tokens": ["me110", "thermal engineering basics"],
+    "category": "course"
+  },
+  "me_202": {
+    "canonical": "ME 202",
+    "expansion": "strength of materials",
+    "tokens": ["me202", "strength of materials"],
+    "category": "course"
+  },
+  "me_202n": {
+    "canonical": "ME 202N",
+    "expansion": "strength of materials",
+    "tokens": ["me202n", "strength of materials"],
+    "category": "course"
+  },
+  "me_204": {
+    "canonical": "ME 204",
+    "expansion": "fluid machinery",
+    "tokens": ["me204", "fluid machinery"],
+    "category": "course"
+  },
+  "me_204n": {
+    "canonical": "ME 204N",
+    "expansion": "fluid machinery",
+    "tokens": ["me204n", "fluid machinery"],
+    "category": "course"
+  },
+  "me_208": {
+    "canonical": "ME 208",
+    "expansion": "theory of manufacturing processes",
+    "tokens": ["me208", "manufacturing theory"],
+    "category": "course"
+  },
+  "me_214": {
+    "canonical": "ME 214",
+    "expansion": "introduction to additive manufacturing",
+    "tokens": ["me214", "additive manufacturing"],
+    "category": "course"
+  },
+  "me_220": {
+    "canonical": "ME 220",
+    "expansion": "fundamentals of acoustics",
+    "tokens": ["me220", "acoustics"],
+    "category": "course"
+  },
+  "me_224": {
+    "canonical": "ME 224",
+    "expansion": "fundamentals of microscale flows",
+    "tokens": ["me224", "microscale flows"],
+    "category": "course"
+  },
+  "me_254n": {
+    "canonical": "ME 254N",
+    "expansion": "fluid mechanics and machinery lab",
+    "tokens": ["me254n", "fluid mechanics lab"],
+    "category": "course"
+  },
+  "me_256": {
+    "canonical": "ME 256",
+    "expansion": "computer aided machine drawing",
+    "tokens": ["me256", "machine drawing cad"],
+    "category": "course"
+  },
+  "me_257": {
+    "canonical": "ME 257",
+    "expansion": "machine drawing",
+    "tokens": ["me257", "machine drawing"],
+    "category": "course"
+  },
+  "me_258n": {
+    "canonical": "ME 258N",
+    "expansion": "manufacturing processes lab",
+    "tokens": ["me258n", "manufacturing lab"],
+    "category": "course"
+  },
+  "me_302": {
+    "canonical": "ME 302",
+    "expansion": "applied thermodynamics",
+    "tokens": ["me302", "applied thermodynamics"],
+    "category": "course"
+  },
+  "me_303": {
+    "canonical": "ME 303",
+    "expansion": "kinematics and dynamics of machines",
+    "tokens": ["me303", "kinematics dynamics machines"],
+    "category": "course"
+  },
+  "me_304": {
+    "canonical": "ME 304",
+    "expansion": "instrumentation and control system",
+    "tokens": ["me304", "instrumentation", "control system"],
+    "category": "course"
+  },
+  "me_306": {
+    "canonical": "ME 306",
+    "expansion": "machine design-i",
+    "tokens": ["me306", "machine design 1"],
+    "category": "course"
+  },
+  "me_308": {
+    "canonical": "ME 308",
+    "expansion": "quality management",
+    "tokens": ["me308", "quality management"],
+    "category": "course"
+  },
+  "me_310": {
+    "canonical": "ME 310",
+    "expansion": "design of machine elements",
+    "tokens": ["me310", "machine elements design"],
+    "category": "course"
+  },
+  "me_312": {
+    "canonical": "ME 312",
+    "expansion": "introduction to computational fluid dynamics",
+    "tokens": ["me312", "cfd intro"],
+    "category": "course"
+  },
+  "me_314": {
+    "canonical": "ME 314",
+    "expansion": "kinematics & dynamics of machines",
+    "tokens": ["me314", "kinematics dynamics machines"],
+    "category": "course"
+  },
+  "me_316": {
+    "canonical": "ME 316",
+    "expansion": "automobile engineering",
+    "tokens": ["me316", "automobile engineering"],
+    "category": "course"
+  },
+  "me_320": {
+    "canonical": "ME 320",
+    "expansion": "experimental methods in thermal science",
+    "tokens": ["me320", "thermal experiments"],
+    "category": "course"
+  },
+  "me_322": {
+    "canonical": "ME 322",
+    "expansion": "introduction to electric vehicles",
+    "tokens": ["me322", "electric vehicles"],
+    "category": "course"
+  },
+  "me_352": {
+    "canonical": "ME 352",
+    "expansion": "applied thermodynamics lab",
+    "tokens": ["me352", "thermodynamics lab"],
+    "category": "course"
+  },
+  "me_352n": {
+    "canonical": "ME 352N",
+    "expansion": "applied thermodynamics lab",
+    "tokens": ["me352n", "thermodynamics lab"],
+    "category": "course"
+  },
+  "me_353": {
+    "canonical": "ME 353",
+    "expansion": "kinematics and dynamics of machines lab",
+    "tokens": ["me353", "machines lab"],
+    "category": "course"
+  },
+  "me_356": {
+    "canonical": "ME 356",
+    "expansion": "kinematics & dynamics of machines lab",
+    "tokens": ["me356", "machines lab"],
+    "category": "course"
+  },
+  "me_401": {
+    "canonical": "ME 401",
+    "expansion": "machine design-ii",
+    "tokens": ["me401", "machine design 2"],
+    "category": "course"
+  },
+  "me_406_606": {
+    "canonical": "ME 406/606",
+    "expansion": "smart materials based energy harvesters design",
+    "tokens": ["me406", "me606", "smart materials energy harvesters"],
+    "category": "course"
+  },
+  "me_407_607": {
+    "canonical": "ME 407/607",
+    "expansion": "biofluid mechanics",
+    "tokens": ["me407", "me607", "biofluid mechanics"],
+    "category": "course"
+  },
+  "me_418_618": {
+    "canonical": "ME 418/618",
+    "expansion": "computational fluid dynamics (cfd)",
+    "tokens": ["me418", "me618", "cfd"],
+    "category": "course"
+  },
+  "me_432_632": {
+    "canonical": "ME 432/632",
+    "expansion": "vibrations and noise control",
+    "tokens": ["me432", "me632", "vibrations noise control"],
+    "category": "course"
+  },
+  "me_434_634": {
+    "canonical": "ME 434/634",
+    "expansion": "principle of product design",
+    "tokens": ["me434", "me634", "product design"],
+    "category": "course"
+  },
+  "me_437_637": {
+    "canonical": "ME 437/637",
+    "expansion": "fracture mechanics",
+    "tokens": ["me437", "me637", "fracture mechanics"],
+    "category": "course"
+  },
+  "me_456_756": {
+    "canonical": "ME 456/756",
+    "expansion": "industrial automation",
+    "tokens": ["me456", "me756", "industrial automation"],
+    "category": "course"
+  },
+  "me_458_658": {
+    "canonical": "ME 458/658",
+    "expansion": "laser based measurements and micro-manufacturing",
+    "tokens": ["me458", "me658", "laser measurements"],
+    "category": "course"
+  },
+  "me_460_660": {
+    "canonical": "ME 460/660",
+    "expansion": "technology of surface coating",
+    "tokens": ["me460", "me660", "surface coating"],
+    "category": "course"
+  },
+  "me_466_666": {
+    "canonical": "ME 466/666",
+    "expansion": "theory of plasticity",
+    "tokens": ["me466", "me666", "plasticity"],
+    "category": "course"
+  },
+  "me_468_668": {
+    "canonical": "ME 468/668",
+    "expansion": "propulsion system",
+    "tokens": ["me468", "me668", "propulsion systems"],
+    "category": "course"
+  },
+  "me_478_678": {
+    "canonical": "ME 478/678",
+    "expansion": "solar energy technology",
+    "tokens": ["me478", "me678", "solar energy"],
+    "category": "course"
+  },
+  "me_650": {
+    "canonical": "ME 650",
+    "expansion": "materials characterization techniques",
+    "tokens": ["me650", "materials characterization"],
+    "category": "course"
+  },
+  "me_656": {
+    "canonical": "ME 656",
+    "expansion": "vibrations and noise control lab",
+    "tokens": ["me656", "vibrations lab"],
+    "category": "course"
+  },
+  "me_674": {
+    "canonical": "ME 674",
+    "expansion": "smart manufacturing",
+    "tokens": ["me674", "smart manufacturing"],
+    "category": "course"
+  },
+
+  "mm_102": {
+    "canonical": "MM 102",
+    "expansion": "introduction to materials engineering",
+    "tokens": ["mm102", "materials engineering intro"],
+    "category": "course"
+  },
+  "mm_204": {
+    "canonical": "MM 204",
+    "expansion": "physical metallurgy-ii",
+    "tokens": ["mm204", "physical metallurgy 2"],
+    "category": "course"
+  },
+  "mm_208": {
+    "canonical": "MM 208",
+    "expansion": "theory of metal forming",
+    "tokens": ["mm208", "metal forming"],
+    "category": "course"
+  },
+  "mm_210": {
+    "canonical": "MM 210",
+    "expansion": "powder metallurgy and additive manufacturing",
+    "tokens": ["mm210", "powder metallurgy", "additive manufacturing"],
+    "category": "course"
+  },
+  "mm_212": {
+    "canonical": "MM 212",
+    "expansion": "casting and welding technology",
+    "tokens": ["mm212", "casting", "welding technology"],
+    "category": "course"
+  },
+  "mm_214": {
+    "canonical": "MM 214",
+    "expansion": "materials characterization",
+    "tokens": ["mm214", "materials characterization"],
+    "category": "course"
+  },
+  "mm_216": {
+    "canonical": "MM 216",
+    "expansion": "physical metallurgy",
+    "tokens": ["mm216", "physical metallurgy"],
+    "category": "course"
+  },
+  "mm_226": {
+    "canonical": "MM 226",
+    "expansion": "materials informatics",
+    "tokens": ["mm226", "materials informatics"],
+    "category": "course"
+  },
+  "mm_228": {
+    "canonical": "MM 228",
+    "expansion": "ceramic science and technology",
+    "tokens": ["mm228", "ceramic science"],
+    "category": "course"
+  },
+  "mm_230": {
+    "canonical": "MM 230",
+    "expansion": "diffusion in solids",
+    "tokens": ["mm230", "diffusion solids"],
+    "category": "course"
+  },
+  "mm_232": {
+    "canonical": "MM 232",
+    "expansion": "thin film technology",
+    "tokens": ["mm232", "thin films"],
+    "category": "course"
+  },
+  "mm_252": {
+    "canonical": "MM 252",
+    "expansion": "casting and welding technology lab",
+    "tokens": ["mm252", "casting welding lab"],
+    "category": "course"
+  },
+  "mm_258n": {
+    "canonical": "MM 258N",
+    "expansion": "metal forming lab",
+    "tokens": ["mm258n", "metal forming lab"],
+    "category": "course"
+  },
+  "mm_303": {
+    "canonical": "MM 303",
+    "expansion": "introduction to electrochemistry",
+    "tokens": ["mm303", "electrochemistry intro"],
+    "category": "course"
+  },
+  "mm_308": {
+    "canonical": "MM 308",
+    "expansion": "thin films and nano-structures",
+    "tokens": ["mm308", "thin films", "nanostructures"],
+    "category": "course"
+  },
+  "mm_312": {
+    "canonical": "MM 312",
+    "expansion": "electrochemistry and corrosion engineering",
+    "tokens": ["mm312", "corrosion engineering"],
+    "category": "course"
+  },
+  "mm_314": {
+    "canonical": "MM 314",
+    "expansion": "semiconductor devices",
+    "tokens": ["mm314", "semiconductor devices"],
+    "category": "course"
+  },
+  "mm_316": {
+    "canonical": "MM 316",
+    "expansion": "microstructure engineering of alloys",
+    "tokens": ["mm316", "microstructure alloys"],
+    "category": "course"
+  },
+  "mm_318": {
+    "canonical": "MM 318",
+    "expansion": "multicomponent alloys",
+    "tokens": ["mm318", "multicomponent alloys"],
+    "category": "course"
+  },
+  "mm_320": {
+    "canonical": "MM 320",
+    "expansion": "crystallographic texture and crystal plasticity",
+    "tokens": ["mm320", "crystallographic texture"],
+    "category": "course"
+  },
+  "mm_322": {
+    "canonical": "MM 322",
+    "expansion": "surface engineering of alloys",
+    "tokens": ["mm322", "surface engineering"],
+    "category": "course"
+  },
+  "mm_356": {
+    "canonical": "MM 356",
+    "expansion": "electrochemistry and corrosion engineering lab",
+    "tokens": ["mm356", "corrosion lab"],
+    "category": "course"
+  },
+  "mm_358": {
+    "canonical": "MM 358",
+    "expansion": "semiconductor and thin films lab",
+    "tokens": ["mm358", "semiconductor lab"],
+    "category": "course"
+  },
+  "mm_402_602": {
+    "canonical": "MM 402/602",
+    "expansion": "design and selection of materials",
+    "tokens": ["mm402", "mm602", "materials selection"],
+    "category": "course"
+  },
+  "mm_442_642": {
+    "canonical": "MM 442/642",
+    "expansion": "quality assurance in metallurgy",
+    "tokens": ["mm442", "mm642", "quality assurance metallurgy"],
+    "category": "course"
+  },
+  "mm_479_679": {
+    "canonical": "MM 479/679",
+    "expansion": "fundamentals and engineering of solar energy devices",
+    "tokens": ["mm479", "mm679", "solar energy devices"],
+    "category": "course"
+  },
+  "mm_487_687": {
+    "canonical": "MM 487/687",
+    "expansion": "advanced battery technologies",
+    "tokens": ["mm487", "mm687", "battery technologies"],
+    "category": "course"
+  },
+  "mm_604": {
+    "canonical": "MM 604",
+    "expansion": "transport phenomena",
+    "tokens": ["mm604", "transport phenomena"],
+    "category": "course"
+  },
+  "mm_606": {
+    "canonical": "MM 606",
+    "expansion": "energy materials",
+    "tokens": ["mm606", "energy materials"],
+    "category": "course"
+  },
+  "mm_644": {
+    "canonical": "MM 644",
+    "expansion": "integrated computational materials engineering (icme)",
+    "tokens": ["mm644", "icme"],
+    "category": "course"
+  },
+  "mm_646": {
+    "canonical": "MM 646",
+    "expansion": "advances in iron and steel metallurgy",
+    "tokens": ["mm646", "iron and steel metallurgy"],
+    "category": "course"
+  },
+  "mm_656": {
+    "canonical": "MM 656",
+    "expansion": "experimental techniques in materials",
+    "tokens": ["mm656", "materials experiments"],
+    "category": "course"
+  },
+  "mse_724": {
+    "canonical": "MSE 724",
+    "expansion": "thin films and devices fabrications",
+    "tokens": ["mse724", "thin film fabrication"],
+    "category": "course"
+  },
+
+  "ph_107": {
+    "canonical": "PH 107",
+    "expansion": "basics of physics",
+    "tokens": ["ph107", "physics basics"],
+    "category": "course"
+  },
+  "ph_108": {
+    "canonical": "PH 108",
+    "expansion": "basics of laser engineering",
+    "tokens": ["ph108", "laser engineering basics"],
+    "category": "course"
+  },
+  "ph_157": {
+    "canonical": "PH 157",
+    "expansion": "physics lab-i",
+    "tokens": ["ph157", "physics lab 1"],
+    "category": "course"
+  },
+  "ph_210_aa_210": {
+    "canonical": "PH 210/ AA 210",
+    "expansion": "fundamentals of quantum mechanics",
+    "tokens": ["ph210", "aa210", "quantum mechanics"],
+    "category": "course"
+  },
+  "ph_212_aa_212": {
+    "canonical": "PH 212/ AA 212",
+    "expansion": "thermal physics",
+    "tokens": ["ph212", "aa212", "thermal physics"],
+    "category": "course"
+  },
+  "ph_216": {
+    "canonical": "PH 216",
+    "expansion": "accelerator physics",
+    "tokens": ["ph216", "accelerator physics"],
+    "category": "course"
+  },
+  "ph_218": {
+    "canonical": "PH 218",
+    "expansion": "introduction to general relativity",
+    "tokens": ["ph218", "general relativity"],
+    "category": "course"
+  },
+  "ph_302": {
+    "canonical": "PH 302",
+    "expansion": "cooperative phenomena in solids",
+    "tokens": ["ph302", "cooperative phenomena solids"],
+    "category": "course"
+  },
+  "ph_304": {
+    "canonical": "PH 304",
+    "expansion": "fundamentals of statistical mechanics",
+    "tokens": ["ph304", "statistical mechanics"],
+    "category": "course"
+  },
+  "ph_306": {
+    "canonical": "PH 306",
+    "expansion": "atomic and molecular spectroscopy",
+    "tokens": ["ph306", "atomic molecular spectroscopy"],
+    "category": "course"
+  },
+  "ph_312": {
+    "canonical": "PH 312",
+    "expansion": "solar photovoltaics: fundamentals technologies and applications",
+    "tokens": ["ph312", "solar photovoltaics"],
+    "category": "course"
+  },
+  "ph_314": {
+    "canonical": "PH 314",
+    "expansion": "introduction to quantum field theory",
+    "tokens": ["ph314", "quantum field theory"],
+    "category": "course"
+  },
+  "ph_317": {
+    "canonical": "PH 317",
+    "expansion": "data analysis in high energy physics",
+    "tokens": ["ph317", "hep data analysis"],
+    "category": "course"
+  },
+  "ph_322": {
+    "canonical": "PH 322",
+    "expansion": "introduction to quantum information and computation",
+    "tokens": ["ph322", "quantum information"],
+    "category": "course"
+  },
+  "ph_352": {
+    "canonical": "PH 352",
+    "expansion": "solid state physics lab",
+    "tokens": ["ph352", "solid state lab"],
+    "category": "course"
+  },
+  "ph_356": {
+    "canonical": "PH 356",
+    "expansion": "spectroscopy lab",
+    "tokens": ["ph356", "spectroscopy lab"],
+    "category": "course"
+  },
+  "ph_432_632": {
+    "canonical": "PH 432/632",
+    "expansion": "group theory in particle physics",
+    "tokens": ["ph432", "ph632", "group theory particle physics"],
+    "category": "course"
+  },
+  "ph_604": {
+    "canonical": "PH 604",
+    "expansion": "atomic and molecular physics",
+    "tokens": ["ph604", "atomic molecular physics"],
+    "category": "course"
+  },
+  "ph_616": {
+    "canonical": "PH 616",
+    "expansion": "principles and applications of optical spectroscopy",
+    "tokens": ["ph616", "optical spectroscopy"],
+    "category": "course"
+  },
+  "ph_620": {
+    "canonical": "PH 620",
+    "expansion": "statistical mechanics",
+    "tokens": ["ph620", "statistical mechanics"],
+    "category": "course"
+  },
+  "ph_622": {
+    "canonical": "PH 622",
+    "expansion": "fundamentals of solid state physics",
+    "tokens": ["ph622", "solid state physics"],
+    "category": "course"
+  },
+  "ph_626": {
+    "canonical": "PH 626",
+    "expansion": "approximation techniques in quantum mechanics",
+    "tokens": ["ph626", "quantum approximations"],
+    "category": "course"
+  },
+  "ph_628": {
+    "canonical": "PH 628",
+    "expansion": "relativistic quantum mechanics",
+    "tokens": ["ph628", "relativistic qm"],
+    "category": "course"
+  },
+  "ph_630": {
+    "canonical": "PH 630",
+    "expansion": "digital electronics",
+    "tokens": ["ph630", "digital electronics"],
+    "category": "course"
+  },
+  "ph_654": {
+    "canonical": "PH 654",
+    "expansion": "experimental physics lab-ii",
+    "tokens": ["ph654", "experimental physics lab 2"],
+    "category": "course"
+  },
+  "ph_660": {
+    "canonical": "PH 660",
+    "expansion": "nuclear and particle physics",
+    "tokens": ["ph660", "nuclear particle physics"],
+    "category": "course"
+  },
+
+  "si_102": {
+    "canonical": "SI 102",
+    "expansion": "design research",
+    "tokens": ["si102", "design research"],
+    "category": "course"
+  },
+  "si_104": {
+    "canonical": "SI 104",
+    "expansion": "relativistic approach",
+    "tokens": ["si104", "relativistic approach"],
+    "category": "course"
+  },
+  "si_106": {
+    "canonical": "SI 106",
+    "expansion": "graphics and data visualization",
+    "tokens": ["si106", "graphics and data viz"],
+    "category": "course"
+  },
+  "si_108": {
+    "canonical": "SI 108",
+    "expansion": "photo and video communication",
+    "tokens": ["si108", "photo video communication"],
+    "category": "course"
+  },
+  "si_110": {
+    "canonical": "SI 110",
+    "expansion": "design systems",
+    "tokens": ["si110", "design systems"],
+    "category": "course"
+  },
+  "si_112": {
+    "canonical": "SI 112",
+    "expansion": "mini project 2",
+    "tokens": ["si112", "mini project 2"],
+    "category": "course"
+  },
+
+  "es_302": {
+    "canonical": "ES 302",
+    "expansion": "environmental studies: scientific and engineering aspects",
+    "tokens": ["es302", "evs scientific aspects"],
+    "category": "course"
+  }
+}
