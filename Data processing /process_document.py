@@ -13,10 +13,12 @@ from langchain_core.documents import Document
 from dotenv import load_dotenv
 
 load_dotenv()
+# this os.getenv thing is not working on my setup so i hardcoded this 
+# MONGO_URI = os.getenv("MONGO_URI")  # just to check if the load_dotenv() is working properly 
+# if not MONGO_URI:
+#     raise ValueError("MONGO_URI environment variable not set")
 
-MONGO_URI = os.getenv("MONGO_URI")  # just to check if the load_dotenv() is working properly 
-if not MONGO_URI:
-    raise ValueError("MONGO_URI environment variable not set")
+MONGO_URI = MONGO_URI
 
 client = pymongo.MongoClient(MONGO_URI)
 db = client["IITI_BOT"]
