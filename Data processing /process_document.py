@@ -84,6 +84,108 @@ with open("chunks.jsonl", "w", encoding="utf-8") as f:
                 "title": title,
                 "last_crawled": str(last_crawled) if last_crawled else None,
             }
+
+            metadata["source"] = "web"   # you can later detect PDFs from URL if needed
+
+            is_official = False   # i guess this is the only way i can think for the official thingy as of now 
+            if "official" in url.lower() or "notice" in url.lower() or "official" in title.lower():
+                is_official = True
+                metadata["official"] = is_official
+
+            dept_map = {   # just a dept map to help get the dept 
+                
+                "cse": "CS",
+                "computer science": "CS",
+                "computer science and engineering": "CS",
+                "CS": "CS",
+
+                "mech": "ME",
+                "mechanical": "ME",
+                "mechanical engineering": "ME",
+                "ME": "ME",
+                
+                "civil": "CE",
+                "civil engineering": "CE",
+                "ce": "CE",
+                "CE": "CE",
+
+                "ee": "EE",
+                "electrical": "EE",
+                "electrical engineering": "EE",
+                "EE": "EE",
+
+                "maths": "MNC",
+                "mathematics": "MNC",
+                "mathematics and computing": "MNC",
+                "mnc": "MNC",
+                "MNC": "MNC",
+
+                "chemical": "CHE",
+                "chemical engineering": "CHE",
+                "CHE": "CHE",
+
+                "space": "SSE",
+                "space science": "SSE",
+                "space engineering": "SSE",
+                "sse": "SSE",
+                "AA" : "SSE",
+                "astronomy" : "SSE",
+
+                "metallurgy": "MEMS",
+                "material science": "MEMS",
+                "metallurgy and material science": "MEMS",
+                "MEMS": "MEMS",
+
+            }
+
+            found_dept = "ALL"
+            lower_url = url.lower()    # incase if the dept is in url or title 
+            lower_title = title.lower()
+            for key, dept in dept_map.items():
+                if key in lower_url or key in lower_title:
+                    found_dept = dept
+                    break
+            metadata["department"] = found_dept   # 
+
+            topic_map = {    # topic map as of now .... subject to change hopefully 
+                "admission": "admission",
+                "exam": "exam",
+                "placement": "placement",
+                "event": "event",
+                "research": "research",
+                "seminar": "event",
+                "workshop": "event",
+                "scholarship": "admission"
+            }
+
+            # same thing as i did for the dept 
+            found_topic = "general"
+            for key, topic in topic_map.items():
+                if key in lower_url or key in lower_title:
+                    found_topic = topic
+                    break
+            metadata["topic"] = found_topic
+
+           # categorization based on the url 
+            if "syllabus" in lower_url or "syllabus" in lower_title:  
+                metadata["category"] = "syllabus"
+            elif "faq" in lower_url or "faq" in lower_title:
+                metadata["category"] = "faq"
+            elif "timetable" in lower_url or "timetable" in lower_title:
+                metadata["category"] = "timetable" 
+            elif "policy" in lower_url or "policy" in lower_title:
+                metadata["category"] = "policy"
+            else:
+                metadata["category"] = "general"   # appropriate default i guess
+
+            # course_code (extract pattern like CS101, MA201 from title)
+            course_match = re.search(r'\b([A-Z]{2,4}\d{3,4})\b', title)
+            metadata["course_code"] = course_match.group(1) if course_match else None
+
+            # tags just made this idk maybe will be filled later 
+            metadata["tags"] = []
+
+            metadata["last_updated"] = metadata["last_crawled"]   # 
            
             extra = doc.get("metadata", {})
             for k, v in extra.items():
