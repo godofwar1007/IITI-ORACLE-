@@ -12,7 +12,7 @@ load_dotenv()
 
 BATCH_SIZE=67
 
-client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
+client = QdrantClient(url="https://e81c49d4-abd1-4c97-a3fc-8acaed53060d.us-east-1-1.aws.cloud.qdrant.io:6333", api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6MWQ0NzY1YzktMTlmZC00NjRkLWI1NTAtNTIzOWU2YjVmMTQ2In0.CyoZa5HJ9sctq0xw9VNROQbmDtHZ8BKZe9n_n26YRPs")
 collection_name = 'IITI_BOT'
 
 if not client.collection_exists(collection_name):
@@ -69,12 +69,14 @@ class ChunkPayload(BaseModel):
 
 def create_payload_indexes():
     # Get existing indexes to avoid duplicates (idempotent)
-    existing = {idx.field_name for idx in client.get_payload_indexes(collection_name)}
+    collection_info = client.get_collection(collection_name)  
+    existing_schema = collection_info.payload_schema or {}
+    existing_fields = set(existing_schema.keys())
 
     # Keyword indexes
     keyword_fields = ["document_id", "source", "department", "course_code", "topic", "category"]
     for field in keyword_fields:
-        if field not in existing:
+        if field not in existing_fields:
             client.create_payload_index(
                 collection_name=collection_name,
                 field_name=field,
@@ -89,7 +91,7 @@ def create_payload_indexes():
             print(f"Index on '{field}' already exists – skipping")
 
     # boolean index
-    if "official" not in existing:
+    if "official" not in existing_fields:
         client.create_payload_index(
             collection_name=collection_name,
             field_name="official",
@@ -100,7 +102,7 @@ def create_payload_indexes():
         print("Index on 'official' already exists – skipping")
 
     # Integer index for chunk_index
-    if "chunk_index" not in existing:
+    if "chunk_index" not in existing_fields:
         client.create_payload_index(
             collection_name=collection_name,
             field_name="chunk_index",
@@ -111,7 +113,7 @@ def create_payload_indexes():
         print("Index on 'chunk_index' already exists – skipping")
     
     # datetime one 
-    if "last_updated" not in existing:
+    if "last_updated" not in existing_fields:
         client.create_payload_index(
             collection_name=collection_name,
             field_name="last_updated",
@@ -122,7 +124,7 @@ def create_payload_indexes():
         print("Index on 'last_updated' already exists – skipping")
 
     # Array of keywords for tags
-    if "tags" not in existing:
+    if "tags" not in existing_fields:
         client.create_payload_index(
             collection_name=collection_name,
             field_name="tags",
