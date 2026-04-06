@@ -14,7 +14,7 @@ load_dotenv()
 BATCH_SIZE=67
 NAMESPACE_UUID = uuid.UUID('6ba7b810-9dad-11d1-80b4-00c04fd430c8')
 
-client = QdrantClient(url="https://e81c49d4-abd1-4c97-a3fc-8acaed53060d.us-east-1-1.aws.cloud.qdrant.io:6333", api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6MWQ0NzY1YzktMTlmZC00NjRkLWI1NTAtNTIzOWU2YjVmMTQ2In0.CyoZa5HJ9sctq0xw9VNROQbmDtHZ8BKZe9n_n26YRPs")
+client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
 collection_name = 'IITI_BOT'
 
 if not client.collection_exists(collection_name):
