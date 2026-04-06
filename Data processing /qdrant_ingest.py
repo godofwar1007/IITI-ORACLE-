@@ -12,7 +12,7 @@ load_dotenv()
 
 BATCH_SIZE=67
 
-client = QdrantClient(url="https://e81c49d4-abd1-4c97-a3fc-8acaed53060d.us-east-1-1.aws.cloud.qdrant.io:6333", api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6MWQ0NzY1YzktMTlmZC00NjRkLWI1NTAtNTIzOWU2YjVmMTQ2In0.CyoZa5HJ9sctq0xw9VNROQbmDtHZ8BKZe9n_n26YRPs")
+client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
 collection_name = 'IITI_BOT'
 
 if not client.collection_exists(collection_name):
@@ -47,9 +47,10 @@ class ChunkPayload(BaseModel):
     department: str = "ALL"
     course_code: Optional[str] = None
     topic: str = "general"
-    category: str = "notice"
+    category: str = "general"    # changed to match process_document.py
     last_updated: str            
     embedding: List[float]       # the vector 
+    tags: List[str] = []         # added missing field
 
     @field_validator('topic')
     def valid_topic(cls, v):
@@ -60,53 +61,76 @@ class ChunkPayload(BaseModel):
 
     @field_validator('category')
     def valid_category(cls, v):
-        allowed = {"notice", "syllabus", "timetable", "faq", "policy"}
+        allowed = {"notice", "syllabus", "timetable", "faq", "policy", "general"}
         if v not in allowed:
-            return "notice"
+            return "general"     # default changed to general
         return v
     
 
 def create_payload_indexes():
+    # Get existing indexes to avoid duplicates (idempotent)
+    existing = {idx.field_name for idx in client.get_payload_indexes(collection_name)}
+
     # Keyword indexes
     keyword_fields = ["document_id", "source", "department", "course_code", "topic", "category"]
     for field in keyword_fields:
-        client.create_payload_index(
-            collection_name=collection_name,
-            field_name=field,
-            field_schema=models.KeywordIndexParams(
-                type="keyword",
-                on_disk=False,
-                is_tenant=(field == "department")
+        if field not in existing:
+            client.create_payload_index(
+                collection_name=collection_name,
+                field_name=field,
+                field_schema=models.KeywordIndexParams(
+                    type="keyword",
+                    on_disk=False,
+                    is_tenant=(field == "department")
+                )
             )
-        )
+            print(f"Created keyword index on '{field}'")
+        else:
+            print(f"Index on '{field}' already exists – skipping")
 
-        # boolean index
+    # boolean index
+    if "official" not in existing:
         client.create_payload_index(
             collection_name=collection_name,
             field_name="official",
             field_schema=models.BoolIndexParams(type="bool")
-        )    
+        )
+        print("Created boolean index on 'official'")
+    else:
+        print("Index on 'official' already exists – skipping")
 
-        # Integer index for chunk_index
+    # Integer index for chunk_index
+    if "chunk_index" not in existing:
         client.create_payload_index(
             collection_name=collection_name,
             field_name="chunk_index",
             field_schema=models.IntegerIndexParams(type="integer")
         )
-        
-        # datetime one 
+        print("Created integer index on 'chunk_index'")
+    else:
+        print("Index on 'chunk_index' already exists – skipping")
+    
+    # datetime one 
+    if "last_updated" not in existing:
         client.create_payload_index(
             collection_name=collection_name,
             field_name="last_updated",
             field_schema=models.DatetimeIndexParams(type="datetime")
         )
+        print("Created datetime index on 'last_updated'")
+    else:
+        print("Index on 'last_updated' already exists – skipping")
 
-        # Array of keywords for tags
+    # Array of keywords for tags
+    if "tags" not in existing:
         client.create_payload_index(
             collection_name=collection_name,
             field_name="tags",
             field_schema=models.KeywordIndexParams(type="keyword", on_disk=False)
         )
+        print("Created keyword array index on 'tags'")
+    else:
+        print("Index on 'tags' already exists – skipping")
 
 def injest_chunks(jsonl_path="chunks.jsonl"):
     points_batch=[]
@@ -133,6 +157,7 @@ def injest_chunks(jsonl_path="chunks.jsonl"):
                 payload_obj = ChunkPayload(**data)
             except Exception as e:
                 print(f"Line {line_num}: Validation failed: {e}")
+                continue   # <-- added missing continue
 
             point_id = f"{payload_obj.document_id}_{payload_obj.chunk_index}"     # creating a unique point id  
 
@@ -154,6 +179,7 @@ def injest_chunks(jsonl_path="chunks.jsonl"):
 
                 except Exception as e :
                     print(f"Upsert failed: {e}")
+                    points_batch = []   # clear batch to avoid infinite loop on persistent error
 
     # this one is for the final batch
     if points_batch:
@@ -171,6 +197,4 @@ def injest_chunks(jsonl_path="chunks.jsonl"):
 
 if __name__ == "__main__":
     create_payload_indexes()
-    injest_chunks()    
-
-
+    injest_chunks()
