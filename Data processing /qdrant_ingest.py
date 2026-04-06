@@ -7,10 +7,12 @@ from typing import List, Optional
 from datetime import datetime
 import json 
 from dotenv import load_dotenv
+import uuid
 
 load_dotenv()
 
 BATCH_SIZE=67
+NAMESPACE_UUID = uuid.UUID('6ba7b810-9dad-11d1-80b4-00c04fd430c8')
 
 client = QdrantClient(url="https://e81c49d4-abd1-4c97-a3fc-8acaed53060d.us-east-1-1.aws.cloud.qdrant.io:6333", api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6MWQ0NzY1YzktMTlmZC00NjRkLWI1NTAtNTIzOWU2YjVmMTQ2In0.CyoZa5HJ9sctq0xw9VNROQbmDtHZ8BKZe9n_n26YRPs")
 collection_name = 'IITI_BOT'
@@ -160,13 +162,14 @@ def injest_chunks(jsonl_path="chunks.jsonl"):
             except Exception as e:
                 print(f"Line {line_num}: Validation failed: {e}")
                 continue   # <-- added missing continue
-
-            point_id = f"{payload_obj.document_id}_{payload_obj.chunk_index}"     # creating a unique point id  
+            
+            unique_id_str = f"{payload_obj.document_id}_{payload_obj.chunk_index}"
+            point_id = str(uuid.uuid5(NAMESPACE_UUID,unique_id_str))         # creating a unique point id  
 
             point = models.PointStruct(
                 id=point_id,
                 vector={"dense":payload_obj.embedding},
-                payload=payload_obj.dict(exclude={"embedding"})
+                payload=payload_obj.model_dump(exclude={"embedding"})
             )
             points_batch.append(point)          
 
