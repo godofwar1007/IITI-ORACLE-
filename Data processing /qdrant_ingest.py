@@ -14,7 +14,7 @@ load_dotenv()
 BATCH_SIZE=67
 NAMESPACE_UUID = uuid.UUID('6ba7b810-9dad-11d1-80b4-00c04fd430c8')
 
-client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
+client = QdrantClient(url="https://e81c49d4-abd1-4c97-a3fc-8acaed53060d.us-east-1-1.aws.cloud.qdrant.io:6333", api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6MWQ0NzY1YzktMTlmZC00NjRkLWI1NTAtNTIzOWU2YjVmMTQ2In0.CyoZa5HJ9sctq0xw9VNROQbmDtHZ8BKZe9n_n26YRPs")
 collection_name = 'IITI_BOT'
 
 if not client.collection_exists(collection_name):
@@ -37,6 +37,27 @@ if not client.collection_exists(collection_name):
     print(f"Created collection '{collection_name}' with dense (1024, Cosine) and sparse vectors")
 else:
     print(f"Collection '{collection_name}' already exists – keeping existing data")
+
+
+def scalar_quantization():
+
+    collection_info=client.get_collection(collection_name)
+    if collection_info.quantization_config is None:
+        client.update_collection(
+            collection_name=collection_name,
+            quantization_config=models.ScalarQuantization(
+                scalar=models.ScalarQuantizationConfig(
+                    type=models.ScalarType.INT8,
+                    quantile=0.99,
+                    always_ram=True
+                ),
+            ),
+        )
+        print("Enabled scalar quantization (INT8) on collection")
+
+    else:
+        print("Quantization already configured - skipping")    
+
 
 class ChunkPayload(BaseModel):
     chunk_text: str
@@ -201,5 +222,6 @@ def injest_chunks(jsonl_path="chunks.jsonl"):
 
 
 if __name__ == "__main__":
+    scalar_quantization()
     create_payload_indexes()
     injest_chunks()
